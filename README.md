@@ -7,7 +7,7 @@ For additional information, original article can be found [here](https://webdesi
 
 ## Inlining Your Code
 
-When using this responsive template solutions, you **must** inline all CSS when finished editing.
+When using this responsive template solution, you **must** inline all CSS when finished editing.
 
 Be sure to use Campaign Monitor’s inliner tool, [inliner.cm](http://inliner.cm), which also inlines styles onto conditional tables.
 
@@ -18,4 +18,4 @@ First, delete the link tag `<link rel="stylesheet" type="text/css" href="styles.
  - For a quick and easy buffer on mobile, without having to fiddle
    around with padding or media queries, change the width of your table
    from 100% to 95%.
- - Images need to be sized to the biggest they should be. For example, don't use a high resolution image for a 300x300 slot. Outlook won't resize properly.
+ - Images need to be sized to the maximum size which they should be, nothing larger. For example, don't use a high resolution image for a 300x300 image slot. Outlook won't resize properly.
