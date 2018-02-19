@@ -12,7 +12,7 @@ When using this responsive template solution, you **must** inline all CSS when f
 Be sure to use an inliner tool which also inlines styles onto conditional tables.
 
 - [MailChimp's Inliner](https://templates.mailchimp.com/resources/inline-css/)
-- [Campaign Monitor's Inline: inliner.cm](http://inliner.cm)
+- [Campaign Monitor's Inliner: inliner.cm](http://inliner.cm)
 
 First, delete the link tag `<link rel="stylesheet" type="text/css" href="styles.css" />` in the `<head>` of your document and replace it with `<style type="text/css">`. Copy the contents of style.css and paste it underneath, then close the style tag with `</style>`. Finally, copy and paste the entire file into the box at [inliner.cm](http://inliner.cm) and wait for the results. Once processed, copy the contents out of the box and you’re ready to go!
 
