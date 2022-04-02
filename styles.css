@@ -1,72 +1,100 @@
 /* Basics */
 body {
+    padding: 0;   
+    text-align: left;     
     margin: 0 !important;
-    padding: 0;
     background-color: #ffffff;
 }
+
 table {
+    color: #333333;    
     border-spacing: 0;
     font-family: sans-serif;
-    color: #333333;
 }
+
+table, tr, td {
+    border-collapse: collapse;
+}
+
 td {
     padding: 0;
 }
+
 img {
     border: 0;
 }
+
 div[style*="margin: 16px 0"] { 
     margin:0 !important;
 }
+
 .wrapper {
     width: 100%;
     table-layout: fixed;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
+
 .webkit {
+    margin: 0 auto;    
     max-width: 600px;
-    margin: 0 auto;
 }
+
 .outer {
-    Margin: 0 auto;
+    margin: 0 auto;
     width: 100%;
     max-width: 600px;
 }
+
 .full-width-image img {
     width: 100%;
     max-width: 600px;
     height: auto;
 }
+
 .inner {
     padding: 10px;
 }
 
 p {
-    Margin: 0;
+    margin: 0;
 }
+
 a {
     color: #ee6a56;
     text-decoration: underline;
 }
-.h1 {
+
+h1 {
     font-size: 21px;
     font-weight: bold;
-    Margin-bottom: 18px;
+    margin: 0 0 18px 0;
+    font-family: 'Montserrat', sans-serif;    
 }
-.h2 {
+
+h2 {
     font-size: 18px;
     font-weight: bold;
-    Margin-bottom: 12px;
+    margin: 0 0 12px 0;
+    font-family: 'Montserrat', sans-serif;    
 }
  
+.orange-line {
+    background-color: #F1A81D;
+    border-collapse:collapse;
+    line-height: 1px;    
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+    mso-line-height-rule: exactly;    
+}
+
 /* One column layout */
 .one-column .contents {
-    text-align: left;
+
 }
 .one-column p {
     font-size: 14px;
-    Margin-bottom: 10px;
+    margin: 0 0 10px 0;
 }
 
 /*Two column layout*/
@@ -124,7 +152,7 @@ a {
 
 /* Left sidebar layout */
 .left-sidebar {
-text-align: center;
+    text-align: center;
     font-size: 0;
 }
 .left-sidebar .column {
@@ -153,7 +181,7 @@ font-size: 14px;
 
 /* Right sidebar layout */
 .right-sidebar {
-text-align: center;
+    text-align: center;
     font-size: 0;
 }
 .right-sidebar .column {
@@ -181,8 +209,9 @@ text-align: center;
 }
 
 /*Media Queries*/
+
 @media screen and (max-width: 415px) {
-.two-column .column,
+    .two-column .column,
     .three-column .column {
         max-width: 100% !important;
     }
@@ -195,7 +224,7 @@ text-align: center;
 }
 
 @media screen and (min-width: 416px) and (max-width: 620px) {
-.three-column .column {
+    .three-column .column {
         max-width: 33% !important;
     }
     .two-column .column {
